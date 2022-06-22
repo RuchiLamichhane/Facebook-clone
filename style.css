@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "poppins", sans-serif;
+  background-color: #b4b7ba;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.Facebook_content h1 {
+  font-size: 60px;
+  color: #1877f2;
+  font-weight: bolder;
+}
+
+.Facebook_content p {
+  color: #040404;
+  font-weight: 600px;
+  font-size: 25px;
+}
+
+.login_form {
+  width: 400px;
+  height: 350px;
+  padding: 20px;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+
+}
+
+.login_form input {
+  display: block;
+  width: 360px;
+  height: 52px;
+  padding: 5px;
+  margin: 10px 0;
+  outline: none;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.login_button {
+  width: 360px;
+  height: 50px;
+  background: #166fe5;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.forgot-pswrd {
+  padding: 10px 0;
+  color: #166fe5;
+  text-decoration: underline;
+}
+
+.create_new {
+  width: 176px;
+  height: 52px;
+  background: #469B34;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.footer {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.footer ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 10px 0;
+  gap:13px;
+}
+
+footer ol:first-child {
+  border-bottom: 1px solid #dddfe2;
+}
